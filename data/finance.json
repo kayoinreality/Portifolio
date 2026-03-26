@@ -1,0 +1,32 @@
+{
+  "savingsTargetPercent": 20,
+  "incomes": [
+    {
+      "id": "income-fixed-1",
+      "label": "Salário",
+      "amount": 8000,
+      "type": "fixed",
+      "createdAt": "2026-03-01"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "expense-1",
+      "amount": 120,
+      "category": "Mercado",
+      "source": "card",
+      "description": "",
+      "date": "2026-03-21",
+      "needsReview": true
+    },
+    {
+      "id": "expense-2",
+      "amount": 55,
+      "category": "Transporte",
+      "source": "manual",
+      "description": "Uber centro",
+      "date": "2026-03-23",
+      "needsReview": false
+    }
+  ]
+}
